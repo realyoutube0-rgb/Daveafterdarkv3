@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAVE AFTER DARK™ — No. 01 Midnight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo"><a href="index.html" style="color:inherit;text-decoration:none;">DAVE AFTER DARK™</a></div>
+  </header>
+
+<div class="sponsor-bar">
+    <div class="sponsor-lockup">
+      <div class="sponsor-copy">
+        <p class="sponsor-kicker">Sponsored by</p>
+        <p class="sponsor-name">American Eagle</p>
+        <p class="sponsor-partner">leymar.co</p>
+      </div>
+    </div>
+</div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <img class="bottle-shot" src="assets/bottle.jpg" alt="DAVE AFTER DARK bottle">
+      <h1 class="hero-title">Dave After Dark™</h1>
+      <p class="hero-eyebrow">No. 01 — Midnight</p>
+  <p class="hero-tagline">A night scent distilled from dedication.<br>Bottled, unfortunately, from sweat.</p>
+      <p class="hero-price">$2,899.99</p>
+      <button class="btn btn-primary" id="add-to-cart">Add to Cart</button>
+      <button class="btn btn-secondary" id="view-cart">View Cart</button>
+    </div>
+  </section>
+
+<!-- PRODUCT -->
+  <section class="section product" id="product">
+    <div class="container">
+      <p class="hero-eyebrow">No. 01</p>
+      <h2 class="section-title">Midnight</h2>
+      <p class="section-text">A fragrance born from dedication.<br>Refined through perspiration.<br>Perfected for the night.</p>
+      <p class="section-text price-line">$2,899.99</p>
+      <p class="section-text small">Because some things simply cannot be bottled cheaply.</p>
+      <p class="sponsor">In collaboration with American Eagle × leymar.co</p>
+    </div>
+  </section>
+
+  
+
+  <!-- VIDEO -->
+  <section class="section video-section" id="video">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <button class="btn btn-video" id="open-video">BE LIKE DAVE</button>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <h2 class="section-title">Reviews</h2>
+      <div class="review">
+        <p>“I smelled this once and Dave wasn't even there.”</p>
+      </div>
+      <div class="review">
+        <p>“My wife asked who I was wearing. I said Dave.”</p>
+      </div>
+      <div class="review">
+        <p>“10/10. Would Dave again.”</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CART / CHECKOUT / CONFIRMATION (hidden by default) -->
+  <section class="section cart-section hidden" id="cart">
+    <div class="container">
+      <h2 class="section-title">Your Cart</h2>
+      <div class="cart-item">
+        <p>DAVE AFTER DARK™ — No. 01 Midnight</p>
+        <p>$2,899.99</p>
+      </div>
+      <button class="btn btn-primary" id="go-to-checkout">Proceed to Checkout</button>
+      <button class="btn btn-secondary" id="close-cart">Continue Browsing</button>
+    </div>
+  </section>
+
+  <section class="section checkout-section hidden" id="checkout">
+    <div class="container">
+      <h2 class="section-title">Checkout</h2>
+      <form id="checkout-form">
+        <label>Full Name</label>
+        <input type="text" id="name" required placeholder="Your name">
+
+        <label>Email</label>
+        <input type="email" id="email" required placeholder="you@example.com">
+
+        <label>Address</label>
+        <input type="text" id="address" required placeholder="Shipping address">
+
+        <div class="order-summary">
+          <p>Order Summary</p>
+          <p>DAVE AFTER DARK™ — No. 01 Midnight — $2,899.99</p>
+          <p class="total">Total: $2,899.99</p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Place Fake Order</button>
+        <button type="button" class="btn btn-secondary" id="back-to-cart">Back to Cart</button>
+      </form>
+      <p class="disclaimer-note">This is a parody site. No real payment is processed. No credit card information is collected.</p>
+    </div>
+  </section>
+
+  <section class="section confirmation-section hidden" id="confirmation">
+    <div class="container">
+      <h2 class="section-title">Order Confirmed</h2>
+      <p class="section-text">Thank you. Your completely fictional order of DAVE AFTER DARK™ has been “received.”</p>
+      <p class="section-text">No product will ship. No charge will occur.</p>
+      <button class="btn btn-primary" id="back-to-site">Return to Site</button>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="disclaimer">Parody site. No real product. No sweat was collected or sold. No payment is processed and no personal information is stored or used.</p>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="video-modal hidden" id="video-modal">
+    <div class="video-modal-content">
+      <button class="close-video" id="close-video">&times;</button>
+      <video id="dave-video" controls playsinline>
+        <source src="assets/150203.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+    <div class="toast hidden" id="toast">Added to cart</div>
+
+    <!-- BOTTOM NAV -->
+<nav class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="story.html">Story</a>
+    <a href="reviews.html">Reviews</a>
+</nav>
+  <script src="script.js"></script>
+</body>
+</html>
